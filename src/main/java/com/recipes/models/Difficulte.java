@@ -4,6 +4,7 @@ public enum Difficulte {
 
     FACILE,
     INTERMEDIAIRE,
-    DIFFICILE
+    DIFFICILE,
+    PROFESSIONNEL
 
 }
