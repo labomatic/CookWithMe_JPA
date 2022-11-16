@@ -10,6 +10,7 @@ public class Recette {
     @Column(name = "id_recette")
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
+    //Ceci est un commentaire
     @Column(name = "id_utilisateur", nullable = false)
     private Long idCreateur;
     @Column(name = "nom", nullable = false, length = 50)
